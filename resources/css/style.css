@@ -1,0 +1,35 @@
+/* Universal Styles */
+
+* {
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* Header Section */
+
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  position: fixed;
+  align-items: center;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  padding-left: 10px;
+}
+
+nav span a {
+  padding: 0 10px 0 10px;
+}
