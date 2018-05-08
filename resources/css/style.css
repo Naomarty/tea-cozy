@@ -7,15 +7,18 @@
   background-color: black;
   opacity: 0.9;
   margin: 0;
+  text-align: center;
 }
 
 h2 {
   font-size: 1.5rem;
+  padding: 2px 0 20px 0;
 }
 
-h2, h4 {
-  padding: 5px;
+h3 {
+  font-size: 1.25rem;
 }
+
 
 /* Header Section */
 
@@ -68,4 +71,50 @@ nav span a {
   width: 100%;
   text-align: center;
   padding: 10px;
+}
+
+/* Featured */
+
+.featured {
+  height: auto;
+  width: 100%;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ .row-1,
+ .row-2 {
+  height: auto;
+  width: 1000px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-1 {
+  justify-content: space-between;
+}
+
+.row-2 {
+  justify-content: center;
+}
+
+.image {
+  height: 260px;
+  width: 300px;
+}
+
+.row-2 .image {
+  padding: 0 25px 0 25px;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+}
+
+.image h4 {
+  padding-top: 10px;
 }
