@@ -4,10 +4,13 @@
   font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
   font-size: 22px;
   color: seashell;
-  background-color: black;
   opacity: 0.9;
   margin: 0;
   text-align: center;
+}
+
+body {
+  background-color: black;
 }
 
 h2 {
@@ -30,6 +33,7 @@ header {
   position: fixed;
   align-items: center;
   z-index: 1;
+  background-color: black;
 }
 
 .logo {
@@ -44,13 +48,13 @@ header {
 }
 
 nav span a {
-  padding: 0 10px 0 10px;
+  padding: 0 10px;
   font-size: 22px;
 }
 
 /* Mission Section */
 
-.mission {
+#mission {
   height: auto;
   width: 100%;
   padding-top: 70px;
@@ -71,11 +75,12 @@ nav span a {
   width: 100%;
   text-align: center;
   padding: 10px;
+  background-color: black;
 }
 
 /* Featured */
 
-.featured {
+#featured {
   height: auto;
   width: 100%;
   padding-top: 70px;
@@ -117,4 +122,61 @@ img {
 
 .image h4 {
   padding-top: 10px;
+}
+
+/* Locations */
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  width: auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#loc {
+  padding: 0;
+}
+
+.container-loc {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.box {
+  width: 300px;
+  opacity: 1.0;
+  padding: 10px;
+  margin: 15px 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.box h3, p {
+  padding: 20px 0 20px 0;
+}
+
+/* Contact Section */
+
+#contact {
+  height: 200px;
+  width: 100%;
+}
+
+.contact h2, h5 {
+  padding: 18px;
+}
+
+/* Footer Section */
+
+#footer {
+  text-align: left;
+  padding-left: 20px;
 }
